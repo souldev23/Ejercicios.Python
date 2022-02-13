@@ -19,3 +19,7 @@ dic["Géminis"] = "Kanon"
 print(dic)
 dic["Cáncer"] = "Death Mask"
 print(dic)
+print(dic.setdefault("Capricornio", "Shura"))
+print(dic)
+print(dic.pop("Capricornio"))
+print(dic)

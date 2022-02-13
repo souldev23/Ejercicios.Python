@@ -1,0 +1,11 @@
+# Se indica la tarea que realiza la función, se escribe el código y por último se invoca, indicando el
+# valor esperado.
+# Se ejecuta la pueba unitaria (unit test) con el comando:
+# py -m doctest nombre_documento.txt
+
+Función que suma 2 números y retorna su valor
+>>> def suma(n1, n2):
+...    return n1+n2
+
+>>> suma(10, 5)
+16
